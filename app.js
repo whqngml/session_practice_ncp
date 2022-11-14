@@ -1,7 +1,7 @@
 const express = require("express");
 const session = require("express-session");
 const app = express();
-const PORT = 8000;
+const PORT = 8008;
 
 app.set("view engine", "ejs");
 app.use("/views", express.static(__dirname + "/views"));
