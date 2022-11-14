@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>실습41. Session 연습</h1>
+
+    <% if (isLogin) { %>
+    <!-- isLogin === true: 00님 환영합니다! + 로그아웃 a 태그 -->
+    <p><%= user %>님 환영합니다!</p>
+    <a href="/logout">로그아웃</a>
+    <% } else { %>
+    <!-- isLogin === false: 로그인 a 태그 -->
+    <a href="login">로그인</a>
+    <% } %>
+    <script></script>
+  </body>
+</html>
